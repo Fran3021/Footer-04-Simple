@@ -1,0 +1,79 @@
+.footer-principal{
+    background-color: $background;
+    .container-footer{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .logo-footer{
+            width: 15%;
+            .logo{
+                width: 35%;
+            }
+        }
+        .content-footer{
+            width: 85%;
+            .content-footer-up{
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 32px;
+                border-bottom: 1px solid $white;
+                align-items: center;
+                .menu-footer{
+                    ul{
+                        display: flex;
+                        gap: 40px;
+                        a{
+                            font-size: 16px;
+                            font-weight: normal;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .inputs-socials{
+                    display: flex;
+                    .inputs{
+                        position: relative;
+                        margin-right: 70px;
+                        .input-footer{
+                            outline: none;
+                            padding: 5px 40px 5px 10px;
+                            border-radius: 10px;
+                            &::placeholder{
+                                font-size: 16px;
+                                color: $black;
+                                font-weight: normal;
+                            }
+                        }
+                        .icon-search{
+                            position: absolute;
+                            right: 5%;
+                            top: 17%;
+                        }
+                    }
+                    .socials{
+                        ul{
+                            display: flex;
+                            gap: 24px;
+                        }
+                    }
+                }
+            }
+            .content-footer-down{
+                .policy-privacy-footer{
+                    padding-top: 32px;
+                    ul{
+                        display: flex;
+                        gap: 40px;
+                        a{
+                            font-size: 14px;
+                            font-weight: normal;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
